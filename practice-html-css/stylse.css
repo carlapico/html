@@ -1,0 +1,81 @@
+*,
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+input {
+    width: 500px;
+}
+
+main {
+    background-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mainDiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+main > section {
+    background-color: blue;
+    border-style: solid;
+}
+
+#redPart {
+    color: red;
+}
+
+img {
+    width: 30%;
+    padding: 100px;
+}
+
+#fancyFont {
+    font-family: cursive;
+}
+
+#toTheRight {
+    display: flex;
+    justify-content: end;
+}
+
+#blueBox {
+    display: flex;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 5px;
+}
+
+body > section > button {
+    margin: 10px;
+}
+
+.links {
+    font-weight: 700;
+}
+
+#hoverOver:hover{
+    color: green;
+    font-size: 5em;
+}
